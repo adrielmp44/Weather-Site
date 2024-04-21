@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+    background-repeat: no-repeat;
+}
+
+.caixa-grande{
+    background-color: #000000;
+    opacity: 0.75;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7C7C7c2b;
+    color: #ffffff;
+    width: calc(100% - 60px);
+}
+
+.botao-buscar{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    float: right;
+    background-color: #ffffff73;
+}
+
+.buscar{
+    width: 25px;
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.cidade{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.temperatura{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.umidade{
+    color: #ffffff;
+    margin-left: 40px;
+}
